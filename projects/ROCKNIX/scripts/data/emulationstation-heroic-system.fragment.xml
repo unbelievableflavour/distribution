@@ -1,0 +1,19 @@
+	<system>
+		<name>heroic</name>
+		<fullname>Heroic Games Launcher</fullname>
+		<manufacturer>Heroic</manufacturer>
+		<release>System</release>
+		<hardware>computer</hardware>
+		<path>/storage/roms/heroic/</path>
+		<extension>.sh</extension>
+		<command>/usr/bin/runemu.sh %ROM% -P%SYSTEM% --core=%CORE% --emulator=%EMULATOR% --controllers="%CONTROLLERSCONFIG%"</command>
+		<platform>heroic</platform>
+		<theme>heroic</theme>
+		<emulators>
+			<emulator name="heroic">
+				<cores>
+					<core default="true">heroic</core>
+				</cores>
+			</emulator>
+		</emulators>
+	</system>
